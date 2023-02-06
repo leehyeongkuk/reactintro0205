@@ -1,7 +1,6 @@
-import swiperDBlink from '../json/db.json';
+import swiperDBlink from '../json/portfolio.json';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
-import { Link } from 'react-router-dom';
 
 const Lhkswiper = () => {
     const swiperinfo = swiperDBlink.portfolio;
@@ -16,7 +15,7 @@ const Lhkswiper = () => {
           disableOnInteraction: false,
         }}
         loop = {true} 
-        pagination={{ clickable: true }}
+        pagination={{ clickable: true }}d
         scrollbar={{ draggable: true }}
         onSlideChange={() => {
           //슬라이드가 끝나고 실행

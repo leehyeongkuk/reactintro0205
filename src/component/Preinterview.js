@@ -1,4 +1,4 @@
-import interviewDBlink from '../json/db.json';
+import interviewDBlink from '../json/preinterview.json';
 const Preinterview = (props) => {
     
     const interviewjson = interviewDBlink[props.objnm];   

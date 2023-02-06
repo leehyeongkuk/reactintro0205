@@ -1,4 +1,4 @@
-import naviDBlink from '../json/db.json';
+import naviDBlink from '../json/navi.json';
 import Scrollspy from "react-scrollspy";
 
 function Navi(props){
